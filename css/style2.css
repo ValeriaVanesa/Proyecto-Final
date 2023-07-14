@@ -345,6 +345,9 @@ scroll-behavior: smooth;
  
 
 }
+.imagenesProducto1 img:hover{
+    border:1px solid black;
+}
 
 #producto01{
     width:450px;
@@ -354,6 +357,11 @@ scroll-behavior: smooth;
 
  
 }
+#producto01 img{
+    width:450px;
+    height:520px;
+}
+
 
 #producto02{
     width:450px;
@@ -362,6 +370,13 @@ scroll-behavior: smooth;
     margin-left:10px;
 }
 
+#producto02 img{
+    width:450px;
+    height:520px;
+}
+
+
+
 #producto03{
     width:450px;
     height:520px;
@@ -369,12 +384,12 @@ scroll-behavior: smooth;
     margin-left:10px;
 }
 
-#producto04{
+#producto03 img{
     width:450px;
     height:520px;
-    background-color:rgb(158, 154, 154);
-    margin-left:10px;
 }
+
+
 
 .registrarse img{
     margin-left:5px;
