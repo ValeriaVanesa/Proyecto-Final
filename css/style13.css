@@ -448,6 +448,10 @@ h5{
     border:1px solid black;
 }
 
+#fotoProducto p{
+    text-align:center;
+}
+
 .infoProducto {
     display:flex;
     justify-content:space-around;

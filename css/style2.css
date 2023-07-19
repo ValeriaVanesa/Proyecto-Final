@@ -349,6 +349,10 @@ scroll-behavior: smooth;
     border:1px solid black;
 }
 
+.imagenesProducto1 p{
+    text-align:center;
+}
+
 #producto01{
     width:450px;
     height:520px;

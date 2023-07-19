@@ -480,6 +480,11 @@ button:hover{
     margin-bottom:40px;
 }
 
+
+#fotoProducto p{
+    text-align:center;
+}
+
 #fotoProducto img:hover{
     border:1px solid black;
 }
@@ -529,6 +534,10 @@ button:hover{
 
 #fotoProducto2 img:hover{
     border:1px solid black;
+}
+
+#fotoProducto2 p{
+    text-align:center;
 }
 
 #producto4{
