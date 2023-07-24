@@ -63,6 +63,7 @@ nav a{
 
 a:hover{
     color:#F07BE4;
+    font-size:20px;
     
 }
 
@@ -198,6 +199,7 @@ section{
 .registrarse a:hover{
     color:#F07BE4; ;
     text-decoration:underline#F07BE4; 
+    font-size:18px;
     
 }
 
@@ -362,7 +364,7 @@ button:hover{
 }
 
 .registrarse img:hover{
-    content: url(../assets/imagenes/shopping-bag-svgrepo-com\ \(3\).svg);
+    content: url(../assets/imagenes/bolsacompras2.png);
     opacity:75%;
 }
 
@@ -381,7 +383,7 @@ button:hover{
 }
 
 #productimg img:hover{
-    content:url(../assets/imagenes/kkkji.jpg);
+    content:url(../assets/imagenes/bandoleramarron2.jpg);
 }
 
 h5{

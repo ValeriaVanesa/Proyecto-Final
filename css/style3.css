@@ -54,6 +54,7 @@ scroll-behavior: smooth;
     
     a:hover{
         color:#F07BE4;
+        font-size:20px;
         
     }
     
@@ -97,6 +98,7 @@ scroll-behavior: smooth;
     .registrarse a:hover{
         color:#F07BE4; ;
         text-decoration:underline#F07BE4; 
+        font-size:18px;
         
     }
     h3{
@@ -334,6 +336,6 @@ scroll-behavior: smooth;
     }
     
     .registrarse img:hover{
-        content: url(../assets/imagenes/shopping-bag-svgrepo-com\ \(3\).svg);
+        content: url(../assets/imagenes/bolsacompras2.png);
         opacity:75%;
     }

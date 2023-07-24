@@ -372,6 +372,6 @@ scroll-behavior: smooth;
     }
     
     .registrarse img:hover{
-        content: url(../assets/imagenes/shopping-bag-svgrepo-com\ \(3\).svg);
+        content: url(../assets/imagenes/bolsacompras2.png);
         opacity:75%;
     }
