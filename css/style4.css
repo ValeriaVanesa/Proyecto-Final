@@ -56,6 +56,7 @@ scroll-behavior: smooth;
     
     a:hover{
         color:#F07BE4;
+        font-size:20px;
         
     }
     
@@ -99,6 +100,7 @@ scroll-behavior: smooth;
     .registrarse a:hover{
         color:#F07BE4; ;
         text-decoration:underline#F07BE4; 
+        font-size:18x;
         
     }
     h3{
@@ -155,6 +157,7 @@ scroll-behavior: smooth;
     footer a:hover{
         color:#F07BE4;
         text-decoration:underline #F07BE4; 
+        font-size:16px;
     
     }
     

@@ -96,6 +96,7 @@ footer a{
 footer a:hover{
     color:#F07BE4;
     text-decoration:underline #F07BE4; 
+    font-size:16px;
 
 }
 
@@ -156,6 +157,7 @@ footer img{
 
 .logo:hover{
     color:rgb(128, 128, 128);
+    font-size:55px;
 }
 
 
