@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mochila Black & White</title>
     <link rel="stylesheet" href="./css/style14.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+         $("body").hide().fadeIn(3000);
+        });
+
+        $(document). ready(function(){
+        $("#img-carrito").click(function(){
+        $("#detalle-compra").slideToggle(300);
+    });
+     });
+    </script>
 </head>
 <body>
 
@@ -45,7 +57,7 @@
               
                <a href="index6.html">Crear cuenta</a> 
                <a href="index4.html">Iniciar sesión</a>
-               <img src="./assets/imagenes/bolsacompras.png"alt="bolsa">
+               <img src="./assets/imagenes/bolsacompras.png"alt="bolsa" id="img-carrito">
            </div>
            
            <nav>
@@ -57,7 +69,20 @@
                <a href="./index5.html">Contacto</a>
              </nav>
        </section>
-      
+
+      <div id="detalle-compra">
+
+        <div id="btn-carrito">
+            <h6>CARRITO DE COMPRAS</h6>
+        </div>
+
+        <div class="carrito-compras">
+            <p>PRODUCTOS</p>
+            <p>SUBTOTAL</p>
+        </div>
+        <p id="carrito-vacio">El carrito de compras está vacío</p>
+
+    </div>
 
    </div>
    

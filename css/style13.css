@@ -491,3 +491,55 @@ h5{
     height:520px;
 
 }
+
+
+#img-carrito{
+    width: 40px;
+    height:40px;
+
+}
+
+.carrito-compras{
+    display:flex;
+    justify-content:space-evenly;
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+}
+
+.carrito-compras p{
+    margin-right:200px;
+    display:flex;
+    font-weight:bold;
+}
+
+#detalle-compra{
+    width:600px;
+    height:650px;
+   
+    display:none;
+    margin-left:67.5%;
+    position:absolute;
+    background-color:white;
+   
+   
+
+}
+
+#detalle-compra h6{
+    font-size:14px;
+    font-weight:bold;
+    
+
+}
+
+#btn-carrito h6{
+  
+  margin-bottom:7px;
+}
+
+#carrito-vacio{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+color:#FD5D9D;
+}

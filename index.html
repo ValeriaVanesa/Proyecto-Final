@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valmour</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="js/codigo.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+    $(document). ready(function(){
+    $("#img-carrito").click(function(){
+    $("#detalle-compra").slideToggle(300);
+});
+ });
+</script>
+
 
 </head>
 <body>
@@ -28,7 +36,7 @@
                    
                     <a href="index6.html">Crear cuenta</a> 
                     <a href="index4.html">Iniciar sesión</a>
-                    <img src="./assets/imagenes/bolsacompras.png "alt="bolsa">
+                    <img src="./assets/imagenes/bolsacompras.png "alt="bolsa" id="img-carrito">
                 </div>
                 
                 <nav>
@@ -44,6 +52,21 @@
     
         </div>
     
+        <div id="detalle-compra">
+            <div id="btn-carrito">
+                <h5>CARRITO DE COMPRAS</h5>
+                
+
+            </div>
+            <div class="carrito-compras">
+                <p>PRODUCTOS</p>
+                <p>SUBTOTAL</p>
+                  
+            </div>
+            <p id="carrito-vacio">El carrito de compras está vacío</p>
+
+        </div>
+
     <div class="imagen1">
              <div class="left">
                 <img src="./assets/imagenes/left_chevron_icon_253873.png" alt="left">
@@ -210,15 +233,26 @@
     
     </article>
     <br><br><br><br><br><br><br>
+
+
     <div class="newsletter">
         <form action="pagina1" method="post">
             <label for="suscripcion"> <p>Suscríbete a nuestro newsletters</p>
                 <br>
-                <input type="email" name="email" id="suscripcion" placeholder="Ingresa tu email y recibi las mejores ofertas">
+                <input type="email" name="email" id="suscripcion" placeholder="Ingresa tu email y recibi las mejores ofertas" required>
             </label>
-            <button type="submit">SUSCRIBIRSE</button>
+            <button id="btn-suscripcion" >SUSCRIBIRSE</button>
         
         </form>
+
+
+
+
+
+
+
+
+
         <div class="redesSociales">
             <a href="#"><img src="./assets/imagenes/facebook.png" alt="facebook"></a> 
             <a href="#"><img src="./assets/imagenes/logo rosa.png" alt="instagram"> </a> 
@@ -329,7 +363,7 @@
 
 
 
-
+<script src="./js/codigo1.js"></script>
 
     
 </body>
