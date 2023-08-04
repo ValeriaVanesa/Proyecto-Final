@@ -356,6 +356,81 @@ button:hover{
     text-decoration:underline;
 }
 
+.imagenesProducto1{
+    display:flex;
+    justify-content:space-around;
+    margin-left:190px;
+    
+  
+ 
+
+}
+.imagenesProducto1 img:hover{
+    border:1px solid black;
+}
+
+.imagenesProducto1 p{
+    text-align:center;
+}
+
+#producto01{
+    width:450px;
+    height:520px;
+    background-color:rgb(158, 154, 154);
+ 
+
+ 
+}
+#producto01 img{
+    width:450px;
+    height:520px;
+}
+
+
+#producto02{
+    width:450px;
+    height:520px;
+    background-color:rgb(158, 154, 154);
+    margin-left:10px;
+}
+
+#producto02 img{
+    width:450px;
+    height:520px;
+}
+
+
+
+#producto03{
+    width:450px;
+    height:520px;
+    background-color:rgb(158, 154, 154);
+    margin-left:10px;
+}
+
+#producto03 img{
+    width:450px;
+    height:520px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .registrarse img{
     margin-left:5px;
     margin-right:15px;
@@ -419,3 +494,14 @@ button:hover{
     font-weight:bold;
 color:#FD5D9D;
 }
+
+
+
+
+
+
+
+
+
+
+
