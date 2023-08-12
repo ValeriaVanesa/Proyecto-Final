@@ -4,14 +4,26 @@ let zapatillasNike=document.getElementById("Nike");
 zapatillasNike.addEventListener("click", alert_agotado);
 
 function alert_agotado(){
-    alert("Este artículo no se encuentra disponile");
+    Swal.fire({
+      
+        text:"Este artículo no esta disponible",
+         icon:"error",
+         confirmButtonText:"Aceptar",
+        confirmButtonColor:"#FD5D9D",
+     });
 }
 
 let btnAgotado=document.getElementById("btn-agotado");
 btnAgotado.addEventListener("click", btn_agotado);
 
 function btn_agotado(){
-    alert("Este artículo no se encuentra disponible");
+    Swal.fire({
+      
+        text:"Este artículo no esta disponible",
+         icon:"error",
+         confirmButtonText:"Aceptar",
+        confirmButtonColor:"#FD5D9D",
+     });
 }
 
 //suscripcion 
@@ -34,11 +46,23 @@ let longitud=valor_trim.length
 console.log(encodeURIComponent(valor_trim))
 
 if(longitud>10){
-alert("gracias por suscribirte")
+    Swal.fire({
+        title:"Bienvenido!",
+        text:"Gracias por suscribirte a las noticias",
+        icon:"success",
+        confirmButtonText:"Aceptar",
+        confirmButtonColor:"#FD5D9D",
+     });
 remover();
 }
 else{
-    alert("Aun hay campos sin completar y/o no validos")
+    Swal.fire({
+      
+        text:"Aun hay campos sin completar y /o no validos",
+         icon:"error",
+         confirmButtonText:"Aceptar",
+        confirmButtonColor:"#FD5D9D",
+     });
 }
 
 })

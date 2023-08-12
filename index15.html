@@ -53,7 +53,7 @@
                <a href="index.html">Inicio</a>
                <a href="index2.html">Productos</a>
                <a href="./index3.html">Cómo comprar</a>
-               <a href="#">Quiénes somos</a>
+            
                <a href="./index5.html">Contacto</a>
              </nav>
        </section>
@@ -96,16 +96,15 @@
         
         <div id="detailscoral">
             <h5>Zapatillas Converse </h5>
-            <p> <strong>$13.900</strong> <del>$16.600</del> <br><strong>3</strong> cuotas sin interés de <strong>$4.633,33</strong> <br> </p>
-            
-            <button>Realizar Compra</button>
-          <br>
+            <p>Color</p>
+            <div class="color">
 
-            <label >
-                <input type="text" name="text" placeholder="Código Postal">
-            </label>
-            <button>Calcular envío</button>
-        </div>
+            </div>
+            <p> <strong>$13.900</strong> <del>$16.600</del> <br><strong>3</strong> cuotas sin interés de <strong>$4.633,33</strong> <br> </p>
+           
+            <button id="boton-compra">Realizar Compra</button>
+          <br>
+       
 
 </article>
 
@@ -117,44 +116,36 @@
         <h2>Descripción</h2>
         <br>
         <ul>
-            <li> Zapatilla caña alta.</li>
-            
-            <li>Capellada de lona de algodón.</li>
+            <li>Zapatillas de lona.</li>
             <li>Etiqueta tejida en lengüeta.</li>
             <li>Cordones de polyester.</li>
             <li>Ojalillos metálicos.</li>
             <li>Vira y suela de caucho.</li>
         </ul>
     </div>
-   
-    <div id="talles">
+  
+    <div >
         <h4>Talles:</h4>
         <br>
-        <ul>
+        <ul class="talles" >
           
-            <li>34.5 (US 03.5)</li> 
-            <li>35.0 (US 04.0)</li>   
-            <li>36.0 (US 04.5)</li> 
-            <li>36.5 (US 05.0)</li>  
-            <li>37.0 (US 05.5)</li>  
-            <li>38.0 (US 06.0)</li>
-            <li>38.5 (US 06.5)</li> 
-            <li>39.0 (US 07.0)</li> 
-            <li>40.0 (US 07.5)</li>  
-            <li>40.5 (US 08.0)</li>  
-            <li>41.0 (US 08.5)</li> 
-            <li>42.0 (US 09.0)</li>  
-            <li>42.5 (US 09.5)</li>  
-            <li>43.0 (US 10.0)</li> 
-            <li>44.0 (US 10.5)</li> 
-            <li>44.5 (US 11.0)</li> 
-            <li>46.0 (US 12.0)</li>  
-            <li>11.5</li>  
             
+            <li><button autofocus id="btn">35.0 (US 04.0)</button></li>   
+            <li><button id="btn1">36.0 (US 04.5)</button></li> 
+            <li><button id="btn2">36.5 (US 05.0)</button></li>  
+            <li><button id="btn3">37.0 (US 05.5)</button></li> 
+            <li><button id="btn4">38.0 (US 06.0)</button></li>
         </ul>
-    </div>
+      
+      
 
+          
+            
+       
+    </div>
+         
 </div>
+
 
 <br><br><br>
 <h2>También te puede gustar</h2>
@@ -225,7 +216,7 @@
 
 
    <div class="newsletter">
-       <form action="pagina1" method="post">
+       <form action="pagina1" method="post" autocomplete="off">
            <label for="suscripcion"> <p>Suscríbete a nuestro newsletters</p>
                <br>
                <input type="email" name="email" id="suscripcion" placeholder="Ingresa tu email y recibi las mejores ofertas">
@@ -357,7 +348,7 @@
 
    <script src="./js/codigo15.js"></script>
 
-
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 
 

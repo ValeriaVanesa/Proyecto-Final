@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valmour</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script>
@@ -19,7 +21,7 @@
 <body>
 
    
-    <body>
+
      <header>
              <div class="fijo">
                 <div class="envios">
@@ -44,7 +46,7 @@
                     <a href="index.html">Inicio</a>
                     <a href="index2.html">Productos</a>
                     <a href="./index3.html">Cómo comprar</a>
-                    <a href="#">Quiénes somos</a>
+                 
                     <a href="./index5.html">Contacto</a>
                   </nav>
             </section>
@@ -67,41 +69,59 @@
 
         </div>
 
-    <div class="imagen1">
-             <div class="left">
-                <img src="./assets/imagenes/left_chevron_icon_253873.png" alt="left">
-             </div>
-             <p>3 IMAGENES</p>
-                <div class="right">
-                    <img src="./assets/imagenes/right_chevron_chevron_icon_253884 (1).png" alt="right">
-                </div>
+
+
+
+
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./assets/imagenes/perfume-carrusel.jpg" class="perfumeCarrusel" alt="perfume-carrusel" >
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/imagenes/zapato-carrusel.webp.png" class="ZapatoCarrusel" alt="zapato-carrusel">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/imagenes/foto3-carrusel.jpeg" class="foto3-carrusel" alt="foto3-carrusel">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
            
-            
-                
-             
-    </div>
+        </div>
+
     <br><br>
     <div id="Categoriass">
        <div id="fotoCategoria">
            <figure>
-            <img src="./assets/imagenes/categoriacazado.jpg" alt="foto">
+        
+            <a href="index9.html"><img src="./assets/imagenes/categoriacazado.jpg" alt="foto"></a>
            </figure>
         
-        <a href="index9.html"><p>Categoria Calzados</p></a>
        </div>
        <p></p>
        <div id="fotoCategoria2">
         <figure>
-            <img src="./assets/imagenes/categoriabolsosycarteras.jpg" alt="foto">
+            <a href="index10.html"><img src="./assets/imagenes/categoriabolsosycarteras.jpg" alt="foto"></a>
         </figure>
        
-        <a href="index10.html"> <p>Categoria <br>Bolsos & Carteras</p></a>
+      
        </div>
        <div id="fotoCategoria3">
         <figure>
-         <img src="./assets/imagenes/categoriaperfumes.jpg" alt="foto">
+         <a href="index11.html"><img src="./assets/imagenes/categoriaperfumes.jpg" alt="foto"></a>
         </figure>
-        <a href="index11.html"><p> Categoria Perfumes</p></a>
+       
        </div>
     
     
@@ -364,7 +384,8 @@
 
 
 <script src="./js/codigo1.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="js/sweetAlert.js"></script>
     
 </body>
 </html>

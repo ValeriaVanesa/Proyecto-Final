@@ -383,9 +383,6 @@ button:hover{
 
 }
 
-#productimg img:hover{
-    content:url(../assets/imagenes/zapatillas-converse2.jpg);
-}
 
 h5{
     font-size: 30px;
@@ -539,4 +536,48 @@ h5{
     font-size:20px;
     font-weight:bold;
 color:#FD5D9D;
+}
+
+.color{
+    width:30px;
+    height:30px;
+    border:2px solid;
+    border-radius:4rem;
+    margin-top:10px;
+    margin-bottom:30px;
+    background-color:black;
+    
+       
+    
+}
+
+.color:hover{
+border:2px solid grey;
+}
+
+
+
+
+
+.talles button{
+    color:white;
+    background-color:black;
+    margin-left:5px;
+
+
+ 
+}
+
+.talles button:hover{
+background-color:#FD5D9D;
+color:black;
+
+
+}
+.talles{
+    display:flex;
+    justify-content:space-around;
+    margin:7px;
+    list-style: none;
+    
 }

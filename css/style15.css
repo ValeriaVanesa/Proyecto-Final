@@ -391,7 +391,7 @@ h5{
     font-size: 30px;
     font-weight:bold;
     color:#FD5D9D;
-    margin-bottom:65px;
+    margin-bottom:20px;
     
     
 
@@ -414,10 +414,7 @@ h5{
     margin-left:40px;
 }
 
-#detailscoral input[type=text]{
-    width:300px;
-    height:42px;
-}
+
 
 #Description{
     display:flex;
@@ -542,8 +539,49 @@ color:#FD5D9D;
 }
 
 
-#talles li hover{
+
+
+
+
+
+
+
+.talles button{
+    color:white;
+    background-color:black;
+    margin-left:5px;
+
+
+ 
+}
+
+.talles button:hover{
 background-color:#FD5D9D;
 color:black;
 
+
+}
+.talles{
+    display:flex;
+    justify-content:space-around;
+    margin:7px;
+    list-style: none;
+    
+}
+
+
+.color{
+    width:30px;
+    height:30px;
+    border:2px solid grey;
+    border-radius:4rem;
+    margin-top:10px;
+    margin-bottom:30px;
+    
+       
+    
+}
+
+.color:hover{
+border:2px solid black;
 }

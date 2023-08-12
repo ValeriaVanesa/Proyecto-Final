@@ -29,3 +29,14 @@ else{
 }
 
 })
+
+
+//Validacion Formulario contacto
+
+let d=document;
+
+  function formularioContacto() {
+    const $form= d.querySelector(".formulario")
+    let input= d.querySelectorAll(".formulario[required]");
+    console.log(input);
+}
