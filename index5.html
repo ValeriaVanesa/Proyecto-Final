@@ -74,13 +74,15 @@
     <legend>¡Envianos tu consulta!</legend>
 
     <form action="pagina.php" method="post">
-
-        <label for="Nombre"><p class="name">Nombre <span>*</span></p>
-            <input type="text" name="nombre" id="nombre"  title="Nombre solo acepta letras y espacios en blanco" pattern=" ^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required >
-        </label>
+         <div id="grupo_nombre">
+            <label for="Nombre"><p class="name">Nombre <span>*</span></p>
+                <input type="text" name="nombre" id="nombre"  title="Nombre solo acepta letras y espacios en blanco" minlength="4" maxlength="20"  pattern="[A-Za-z]{4-16} " required >
+            </label>
+         </div>
+       
         
         <label for="Email"> <p class="correoE">Correo electrónico <span>*</span></p>
-            <input type="email" name="email" id="Email"  title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$ " required >
+            <input type="email" name="email" id="Email"  title="Email incorrecto" pattern="/^[a-zA-Z0-9._+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/ " required >
         
         </label>
        
@@ -117,15 +119,7 @@
 
 
 <br><br><br><br><br><br><br>
-<div class="newsletter">
-    <form action="pagina1" method="post">
-        <label for="suscripcion"> <p>Suscríbete a nuestro newsletters</p>
-            <br>
-            <input type="email" name="email" id="suscripcion" placeholder="Ingresa tu email y recibi las mejores ofertas">
-        </label>
-        <button  id=" btn-suscripcion" type="submit">SUSCRIBIRSE</button>
-    
-    </form>
+
     <div class="redesSociales">
         <a href="#"><img src="./assets/imagenes/facebook.png" alt="facebook"></a> 
         <a href="#"><img src="./assets/imagenes/logo rosa.png" alt="instagram"> </a> 
@@ -154,7 +148,7 @@
                  <li><a href="index.html">Inicio</a></li>
                  <li><a href="index2.html">Productos</a></li>
                  <li><a href="./index3.html">Cómo comprar</a></li>
-                <li><a href="#">Quienes somos</a></li>
+              
                 <li><a href="index5.html">Contacto</a></li>
                 </ul>
             </div>
