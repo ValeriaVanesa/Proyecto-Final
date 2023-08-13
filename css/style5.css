@@ -507,6 +507,23 @@ footer img{
     color:#FD5D9D;
     }
 
-.contact-form-response-none{
+#div_mensaje_enviando{
     display:none;
+   
+}
+
+#div_mensaje_enviando p{
+    font-size:20px;
+    color:#FD5D9D;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:20px;
+   
+}
+#loading_form{
+    display:none;
+    width:70px;
+    height:50px;
+   margin-left:830px;
+    
 }

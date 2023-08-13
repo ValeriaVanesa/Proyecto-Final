@@ -3,6 +3,8 @@ $(document).ready(function () {
          $("#detalle-compra").slideToggle(300);
    });
 
+
+
    $("#enviando").click(function (e) {
       e.preventDefault();
       //validar inputs
@@ -30,13 +32,17 @@ $(document).ready(function () {
       
 
       //envio el formulario
-      // $("#div_mensaje_enviando").show();
+       $("#div_mensaje_enviando").show();
+       $("#loading_form ").show();
 
-      // setTimeout(() => {
-      //    $("#div_mensaje_enviando").hide();
-      //    $("#form").submit();
-      // }, 5000);
+       setTimeout(() => {
+          $("#div_mensaje_enviando").hide();
+          $("#loading_form ").hide();
+          $("#form").submit();
+       }, 5000);
    });
+ 
+   
 });
 
 const validar = (input, expreg) => { 
