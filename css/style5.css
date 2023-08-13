@@ -11,7 +11,18 @@
 }
 
 
+.inputError {
+    border:thin solid red !important;
+}
 
+.inputError:focus {
+    border:thin solid red !important;
+    outline: red solid 1.5px !important;
+}
+
+.inputSuccess {
+    border:thin solid green !important;
+}
 
 textarea{
     overflow:auto;
