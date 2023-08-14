@@ -1,31 +1,68 @@
 
-//suscripcion 
 
-let form=document.querySelector("form")
-let input=document.querySelector("input")
-let eventoRemover= document.getElementById("btn-suscripcion")
+$(document). ready(function(){
+$("#img-carrito").click(function(){
+$("#detalle-compra").slideToggle(300);
+});
 
-let remover= function(e){
-    eventoRemover.removeEventListener("click", remover);
-    eventoRemover.disabled=true;
+
+$("#loginSubmit").click(function (e) {
+    e.preventDefault();
+
+
+
+//Validar inputs
+
+
+      const $email = document.getElementById("email");
+      const $contraseña = document.getElementById("password");
+    
+
+      const regexContra = new RegExp("^[a-zA-Z]{4,16}$");
+      const regexEmail = new RegExp("[^@\s]+@[^@\s]+\.[^@\s]+");
+
+
+      let validacion;
+      validacion = validar($email, regexEmail);
+      if (!validacion) return false;
+      validacion = validar($contraseña, regexContra);
+      if (!validacion) return false;
+
+
+      //envio el formulario
+       $("#div_mensaje_enviando").show();
+       $("#loading_form ").show();
+
+       setTimeout(() => {
+          $("#div_mensaje_enviando").hide();
+          $("#loading_form ").hide();
+          $("#form").submit();
+       }, 5000);
+   });
+ 
+   
+});
+
+const validar = (input, expreg) => { 
+
+   let resultado = expreg.test(input.value)  
+   console.log(input);
+   
+   if (!resultado) {
+      input.classList.remove('inputSuccess');
+      input.classList.add('inputError');
+      input.focus();
+      Swal.fire({
+         title: "Error",
+         text: `El campo ${input.id.toUpperCase()} no tiene un formato válido`,
+         icon: "error",
+         confirmButtonText: "Aceptar",
+         confirmButtonColor: "#FD5D9D",
+      })
+      return false;
+   } else {
+      input.classList.remove('inputError');
+      input.classList.add('inputSuccess');
+      return true;
+   }
 }
-
-
-
-
-form.addEventListener("submit", (e)=>{
-e.preventDefault()
-let valor=input.value
-let valor_trim=valor.trim()
-let longitud=valor_trim.length
-console.log(encodeURIComponent(valor_trim))
-
-if(longitud>10){
-alert("gracias por suscribirte")
-remover();
-}
-else{
-    alert("Aun hay campos sin completar y/o no validos")
-}
-
-})

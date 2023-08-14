@@ -108,13 +108,17 @@ footer p{
     color:white;
     font-size:14px;
     
+    
 }
 
 footer li{
     list-style:none;
+   
+   
 }
 footer img{
     width:20px;
+    height:20px;
     
 }
 
@@ -347,6 +351,7 @@ width:300px;
 height:40px;
 border-radius:0.4rem;
 border:1.9px solid black;
+font-size:16px;
 
         
 }

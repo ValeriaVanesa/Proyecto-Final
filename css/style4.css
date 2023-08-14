@@ -251,34 +251,7 @@ scroll-behavior: smooth;
                margin-bottom:10px;
             }
             
-            .newsletter{
-                display:flex;
-                justify-content:space-around;
-                
-                }
-                
-                .newsletter form{
-                    margin-right:55%;
-                   
-                
-                }
-                
-                
-                .newsletter p{
-                    font-size:20px;
-                    color:#FD5D9D;
-                    font-weight:bold;
-                }
-                
-                
-                .newsletter input[type="email"]{
-                width:300px;
-                height:40px;
-                border-radius:0.4rem;
-                border:1.9px solid black;
-                
-                        
-                }
+       
                 
                 button{
                     width:100px;
@@ -367,6 +340,32 @@ scroll-behavior: smooth;
         text-decoration:underline;
     }
 
+    #formularioLogin input[required]:valid{
+        border:thin solid green;
+       }
+    
+    #formularioLogin input [required]:invalid{
+        border:thin solid red;
+     }
+
+
+    .inputError {
+        border:thin solid red !important;
+    }
+    
+    .inputError:focus {
+        border:thin solid red !important;
+        outline: red solid 1.5px !important;
+    }
+    
+    .inputSuccess {
+        border:thin solid green !important;
+    }
+
+    .imputSuccess:focus{
+        border: solid green 1.5px !important;
+    }
+    
     .registrarse img{
         margin-left:5px;
         margin-right:15px;
@@ -428,4 +427,26 @@ scroll-behavior: smooth;
         font-size:20px;
         font-weight:bold;
     color:#FD5D9D;
+    }
+
+    #div_mensaje_enviando{
+        display:none;
+       
+    }
+    
+    #div_mensaje_enviando p{
+        font-size:20px;
+        color:#FD5D9D;
+        font-weight:bold;
+        margin-top:10px;
+        margin-bottom:20px;
+        margin-left:150px;
+       
+    }
+    #loading_form{
+        display:none;
+        width:70px;
+        height:50px;
+       margin-left:140px;
+        
     }
