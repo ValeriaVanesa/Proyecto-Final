@@ -407,6 +407,19 @@ h5{
     
 }
 
+#productimg img:hover{
+    content:url(../assets/imagenes/vansnegras2.jpg)
+}
+
+#fotoVansBordo img:hover{
+    content:url(../assets/imagenes/vansBordo2.jpg)
+}
+
+
+
+
+
+
 #detailscoral{
     margin-left:40px;
 }

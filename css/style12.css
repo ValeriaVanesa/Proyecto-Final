@@ -390,6 +390,53 @@ button:hover{
 
 }
 
+#fotoVansBordo:hover{
+    content:url(../assets/imagenes/vansBordo2.jpg);
+}
+
+
+#fotoBotaVans img:hover{
+    content:url(../assets/imagenes/botavans2.jpg);
+}
+
+#fotoVansazul img:hover{
+    content:url(../assets/imagenes/vansazul2.jpg);
+}
+
+#fotoMochilaLv img:hover{
+    content:url(../assets/imagenes/lv2.jpg);
+}
+
+#fotoMochilaPink img:hover{
+    content:url(../assets/imagenes/mochilarosa2.jpg);
+}
+
+#fotoCarteraBlanca img:hover{
+    content:url(../assets/imagenes/carterablanca2.jpg);
+}
+
+#fotoVsTease img:hover{
+    content:url(../assets/imagenes/victoriassecrettease2.jpg);
+}
+
+#fotoVsBombshell img:hover{
+    content:url(../assets/imagenes/victoriassecretperfume2.jpg);
+}
+
+#fotoPerfumeBlush img:hover{
+    content:url(../assets/imagenes/goodgirl2.webp);
+}
+#fotoPerfumeLancome img:hover{
+    content:url(../assets/imagenes/lavidaesbellaperfume2.jpg);
+}
+
+#fotoPerfumeMonParis img:hover{
+    content:url(../assets/imagenes/vsperfumemonparis2.jpg);
+}
+
+#fotoPerfumeMarcJacobs img:hover{
+    content:url(../assets/imagenes/marcjacobsperfume2.jpg);
+}
 h5{
     font-size: 30px;
     font-weight:bold;

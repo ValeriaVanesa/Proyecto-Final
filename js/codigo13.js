@@ -18,12 +18,24 @@ let longitud=valor_trim.length
 console.log(encodeURIComponent(valor_trim))
 
 if(longitud>10){
-alert("gracias por suscribirte a las noticias")
+    Swal.fire({
+        title:"Bienvenido!",
+        text:"Gracias por suscribirte a las noticias",
+        icon:"success",
+        confirmButtonText:"Aceptar",
+        confirmButtonColor:"#FD5D9D",
+     });
 
 remover();
 }
 else{
-    alert("Aun hay campos sin completar y/o no validos")
+    Swal.fire({
+      
+        text:"Aun hay campos sin completar y /o no validos",
+         icon:"error",
+         confirmButtonText:"Aceptar",
+        confirmButtonColor:"#FD5D9D",
+     }); 
 }
 
 })
