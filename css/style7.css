@@ -411,3 +411,38 @@ footer p{
             font-weight:bold;
         color:#FD5D9D;
         }
+
+        #menu-horizontal{
+            list-style:none;
+            display:flex;
+            justify-content:space-around;
+        
+        }
+        
+        #menu-horizontal >li>a{
+        display:block;
+        padding:15px 20px;
+        text-decoration:none;
+        
+        }
+        
+        #menu-vertical{
+        position:absolute;
+        display:none;
+        list-style:none;
+        margin-top:-10px;
+        width:170px;
+        font-weight:bold;
+        background-color:#FCCBED;
+        font-size:15px;
+        
+        
+        }
+        #menu-vertical a:hover{
+            font-size:15px;
+        }
+        
+        #menu-horizontal li:hover #menu-vertical{
+        display:block;
+        
+        }
