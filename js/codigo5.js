@@ -1,7 +1,3 @@
-$(document).ready(function () {
-   $("#img-carrito").click(function () {
-         $("#detalle-compra").slideToggle(300);
-   });
 
 
 
@@ -43,7 +39,7 @@ $(document).ready(function () {
    });
  
    
-});
+
 
 const validar = (input, expreg) => { 
 

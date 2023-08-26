@@ -1,9 +1,6 @@
 
 
-$(document). ready(function(){
-$("#img-carrito").click(function(){
-$("#detalle-compra").slideToggle(300);
-});
+
 
 
 $("#loginSubmit").click(function (e) {
@@ -41,7 +38,6 @@ $("#loginSubmit").click(function (e) {
    });
  
    
-});
 
 const validar = (input, expreg) => { 
 

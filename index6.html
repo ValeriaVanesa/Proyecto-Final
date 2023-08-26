@@ -6,13 +6,7 @@
     <title>Crear cuenta</title>
     <link rel="stylesheet" href="./css/style6.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script>
-        $(document). ready(function(){
-        $("#img-carrito").click(function(){
-        $("#detalle-compra").slideToggle(300);
-    });
-     });
-    </script>
+ 
 </head>
 <body>
 
@@ -58,19 +52,7 @@
        </section>
       
 
-       <div id="detalle-compra">
-
-        <div id="btn-carrito">
-            <h5>CARRITO DE COMPRAS</h5>
-        </div>
-
-        <div class="carrito-compras">
-            <p>PRODUCTOS</p>
-            <p>SUBTOTAL</p>
-        </div>
-        <p id="carrito-vacio">El carrito de compras está vacío</p>
-
-    </div>
+      
 
   
   
@@ -97,30 +79,30 @@
     <br><br><br>
 <div id="registrarse">
     <div id="registro1">
-        <form action="pagina" method="post">
+        <form action="pagina" method="post" class="form">
             <h2>INFORMACIÓN PERSONAL</h2>
             <br>
         <label for="nombre">Nombre<span>*</span>
-            <input type="text" name="nombre" required>
+            <input type="text" name="nombre" id="nombre" required>
             
         </label>
         <br>
         <label for="apellido">Apellido<span>*</span>
-            <input type="text" name="apellido" required>
+            <input type="text" name="apellido" id="apellido" required>
     
         </label>
         <br>
         <label for="checkbox">
-            <input type="checkbox" name="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
             Suscribirse al boletín de noticias
         </label>
         <br><br>
         <label for="fecha">Fecha de nacimiento
-            <input type="datetime-local" name="date" required>
+            <input type="datetime-local" name="date" id="fechaNacimiento" required>
         </label>
         <br>
         <label for="dni">DNI
-            <input type="text" name="dni" >
+            <input type="text" name="dni" id="dni">
     
         </label>
     
@@ -133,7 +115,7 @@
     
     <div id="registro2">
     
-        <form action="pagina" method="post">
+        <form action="pagina" method="post" class="form">
        <h2>INFORMACIÓN DE INICIO DE SESIÓN</h2>
        <br>
        <label for="email">Correo electrónico <span>*</span>
@@ -144,18 +126,22 @@
             <input type="password" name="contraseña" id="contraseña" required>
     
         </label>
-        <br>
-        <label>Confirmar contraseña <span>*</span>
-            <input type="password" name="password" required>
-    
-        </label>
+ 
+
         </form>
     </div>
         
 </div>
 <br><br><br>
 <button id="button2"type="submit">CREAR </button>
-<br><br><br><br><br><br><br><
+<div id="div_mensaje_enviando" >
+    <p>Iniciando sesión </p>
+</div>
+<div id="loading_form">
+    <img src="./assets/imagenes/loading.gif" alt="gif">
+</div>
+
+<br><br><br><br><br><br><br>
     
     <div class="redesSociales">
         <a href="#"><img src="./assets/imagenes/facebook.png" alt="facebook"></a> 

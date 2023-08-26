@@ -490,3 +490,52 @@ font-size:15px;
 display:block;
 
 }
+
+
+#form input[required]:valid{
+    border:thin solid green;
+   }
+
+#form input [required]:invalid{
+    border:thin solid red;
+ }
+
+
+.inputError {
+    border:thin solid red !important;
+}
+
+.inputError:focus {
+    border:thin solid red !important;
+    outline: red solid 1.5px !important;
+}
+
+.inputSuccess {
+    border:thin solid green !important;
+}
+
+.imputSuccess:focus{
+    border: solid green 1.5px !important;
+}
+
+#div_mensaje_enviando{
+    display:none;
+   
+}
+
+#div_mensaje_enviando p{
+    font-size:20px;
+    color:#FD5D9D;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:810px;
+   
+}
+#loading_form{
+    display:none;
+    width:70px;
+    height:50px;
+   margin-left:775px;
+    
+}

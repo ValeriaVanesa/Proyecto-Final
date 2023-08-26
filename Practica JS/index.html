@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practiva JS</title>
+</head>
+<body>
+
+<h1>Practica JS</h1>
+
+<script>
+/*let precio = 100;
+alert("precio:$" + precio);
+let total=CalcularIva(precio);
+
+function CalcularIva(pcio){
+ let total= pcio *1.21;
+ return total;
+}
+alert(total);*/
+
+</script>
+
+
+<script>
+/*let nombre = prompt("ingrese un nomnbre");
+let marca= prompt("ingrese una marca");
+let precio= prompt("ingrese un precio");
+mostrarProducto();
+
+function mostrarProducto(){
+    let impuesto=1.15;
+    PrecioConImpuesto=precio *impuesto;
+    let msj="el producto" + nombre + "de la marca"+ marca + " tiene un precio de: $" + PrecioConImpuesto;
+    document.writeln(msj);
+}
+document.writeln("precio sin impuesto:$" + precio);
+document.writeln("precio con impuesto $" + PrecioConImpuesto);*/
+
+
+</script>
+
+
+
+
+
+<script>
+/*
+let precio= prompt("ingrese el precio a calcular");
+   let descuento= 15;
+
+   CalcularIva(precio);
+   CalcularDescuento(precio,descuento);
+
+   function CalcularIva(precio){
+    document.write("el precio con iva es de :$" + precio * 1.21);
+
+   }
+
+   function CalcularDescuento(precio, descuento){
+    document.write("el precio con descuento es de: $" + (precio - restar));
+   }*/
+</script>
+
+
+
+
+
+
+<script>
+    /*
+let nombre = prompt("Escriba su nombre");
+let precio = prompt("ingrese el precio");
+
+
+
+ CalcularprecioIva(precio);
+
+CalcularDescuento(precio);
+
+
+
+function CalcularprecioIva(precio){
+    document.write("el precio con iva es de: $" + (precio * 1.21));
+}
+
+function CalcularDescuento(precio){
+    document.write("El precio con descuento es de:$" + (precio - 150));
+}
+
+
+*/
+</script>
+
+<script>
+/*
+let descuento= 200;
+let precio= prompt("ingrese el precio a calcular");
+
+
+
+let Piva = PrecioIva(precio);
+let Desc = PrecioDescuento(precio , descuento);
+MostrarResultados(Piva, Desc);
+
+
+
+function PrecioIva(precio){
+    document.write("el precio con iva es de: $" +( precio * 1.21));
+    return precio*1.21;
+
+}
+
+function PrecioDescuento(precio, descuento){
+    let restar= precio - descuento /100
+    document.write("El precio con descuento es de:$" + restar);
+    return restar;
+}
+
+function MostrarResultados(Piva, Desc){
+    document.write("El precio con iva es:$" + Piva )
+    document.write("El precio con descuento es:$" + Desc)
+}
+
+*/
+
+</script>
+
+
+
+
+
+
+<button>Presioname</button>
+//funciones
+<script>
+    let uno=150;
+    let dos=250;
+function sumar(uno,dos){
+    let resultado=uno+dos;
+console.log("el resultado de la suma es:${resultado}");
+ }
+
+ sumar(800,1000);
+ sumar(uno, dos);
+
+
+
+function multiplicar(uno,dos){
+    let resultado=uno*dos;
+return resultado;//corta la funcion
+console.log("estoy despues del return");
+ }
+console.log("el resultado de la multiplicacion es ${multiplicar(500,50)}");
+
+//funciones con funciones con parametro- callback
+function dameResultado(a,b,callback){
+    let resultado= callback(a,b);
+    console.log("el resultado de la multiplicacion es ${resultado}");
+
+}
+
+//invocamos al callback
+
+dameResultado(100,50,multiplicar);
+//funcion flecha
+
+ const pepe=()=>{
+    console.log("soy una funcion flecha");
+}
+
+const otroPepe=(nombre)=>{
+    console.log("soy una funcion ${nombre}");
+}
+//cuando tengo una sola tarea, queda en una sola linea sin llaves
+const miOtroPepe=(nombre)=>console.log("soy una funcion ${nombre}");
+
+
+
+
+miOtroPepe("sin llaves en la funcion")
+
+pepe();
+
+otroPepe("flecha");
+
+
+
+
+
+
+ <script src="index2.js"></script>
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

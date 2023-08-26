@@ -477,6 +477,13 @@ button:hover{
 #fotoCategoria3 img{
     width:400px;
     height:500px;
+    position:relative;
+    text-align:center;
+}
+#textoEncima{
+    position:absolute;
+    margin-top:10px;
+    margin-left:10px;
 }
 
 

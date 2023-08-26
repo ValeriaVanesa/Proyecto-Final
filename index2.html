@@ -6,13 +6,8 @@
     <title>Productos</title>
     <link rel="stylesheet" href="css/style2.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<script>
-    $(document). ready(function(){
-    $("#img-carrito").click(function(){
-    $("#detalle-compra").slideToggle(300);
-});
- });
-</script>
+
+    
 
 </head>
 <body>
@@ -31,7 +26,7 @@
               
                <a href="index6.html">Crear cuenta</a> 
                <a href="index4.html">Iniciar sesión</a>
-               <img src="./assets/imagenes/bolsacompras.png "alt="bolsa" id="img-carrito" >
+               <img src="./assets/imagenes/bolsacompras.png "alt="bolsa" id="verCarrito" >
            </div>
            
 
@@ -59,10 +54,8 @@
                </div> 
                
              </nav>
-
-
-
-
+              <br><br><br><br><br>
+             
 
 
 
@@ -70,219 +63,40 @@
 
        </section>
 
-       <div id="detalle-compra">
-        <div id="btn-carrito">
-            <h5>CARRITO DE COMPRAS</h5>
-            
+       
+    
 
-        </div>
-        <div class="carrito-compras">
-            <p>PRODUCTOS</p>
-            <p>SUBTOTAL</p>
-              
-        </div>
-        <p id="carrito-vacio">El carrito de compras está vacío</p>
-
+   
+       
     </div>
-
     <br><br>
 <div>
     <a id="inicio" href="index.html">Inicio</a> 
     <p class="Product">/Productos</p>
 </div>
-   <br><br><br>
+   <br><br><br><br>
 
 
 
-    
+     
+<!--modal container-->
 
+<div id="modal-container" class="modal-container">
 
-
-
-<div class="imagenesProducto1">
-<div id="producto01">
-    <figure>
-        <img src="./assets/imagenes/vansbordo.jpg" alt="foto">
-
-    </figure>
-    <p>Zapatillas Vans<br> <strong>$13.900</strong> <del>$15.500</del> <br> <strong>3</strong> cuotas sin interés de  <strong>$4.633,33</strong>   <br> <a href="index17.html"><button> Ver producto</button> </a> <button>Comprar</button></p>
- 
 </div>
-<p></p>
-<br>
-<div id="producto02">
-    <figure>
-        <img src="./assets/imagenes/vansBota.jpg" alt="foto">
-    </figure>
-    <p>bota vans <br> <strong>$14.900</strong> <del>$16.500</del> <br><strong>3</strong> cuotas sin interés de <strong>$4.966,67</strong> <br> <a href="index18.html"><button> Ver producto</button> </a><button>Comprar</button></p>
-   
-</div>
-<p></p>
-<br>
-<div id="producto03">
-    <figure>
-        <img src="./assets/imagenes/vansNegro.jpg" alt="foto">
-    </figure>
-    <p>Zapatillas Vans <br> <strong>$11.900</strong> <del>$13.900</del> <br><strong>3</strong> cuotas sin interés de <strong>$3.966,67</strong> <br> <a href="index16.html"><button> Ver producto</button>    </a> <button>Comprar</button> </p>
-    
-</div>
-<p></p>
-
-
- </div>
-
-<br><br><br><br><br><br>
-
- <div class="imagenesProducto1">
-    <div id="producto01">
-        <figure>
-            <img src="./assets/imagenes/vansazul.jpg" alt="foto">
-        </figure>
-        <p>Zapatillas Vans<br> <strong>$15.000</strong> <del>$17.500</del> <br> <strong>3</strong> cuotas sin interés de <strong>$5.166,67</strong>  <br> <a href="index19.html"><button> Ver producto</button>    </a> <button>Comprar</button>  </p>
-    </div>
-    <p></p>
-    <br>
-    <div id="producto02">
-      <figure>
-        <img src="./assets/imagenes/all star.jpg" alt="foto">
-      </figure>
-      <p>Zapatillas Converse <br> <strong>$13.900</strong> <del>$16.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$4.633,33</strong>   <br> <a href="index15.html"><button> Ver producto</button>   </a><button>Comprar</button>  </p>
-    </div>
-    <p></p>
-    <br>
-    <div id="producto03">
-       <figure>
-        <img src="./assets/imagenes/vanspink.jpg" alt="foto" id="Nike">
-       </figure>
-       <p>Bota Vans  <strong style="color:red;">AGOTADO</strong> <br> <strong>$15.000</strong> <del>$17.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$5.166,67</strong>  <br> <button id="btn-agotado"> Ver producto</button> <button>Comprar</button> </p>
-    </div>
-    <p></p>
-    
-    
-     </div>
-    
-<br><br><br><br><br><br>
-
-     <div class="imagenesProducto1">
-        <div id="producto01">
-           <img src="./assets/imagenes/victoriassecrettease.jpg" alt="foto">
-           <p>Tease de Victorias secret <br> <strong>$14.900</strong> <del>$16.500</del> <br><strong>3</strong> cuotas sin interés de <strong>$4.966,67 </strong>  <br> <a href="index23.html"><button> Ver producto</button></a> <button>Comprar</button>  </p>
-        </div>
-        
-        <br>
-        <div id="producto02">
-            <img src="./assets/imagenes/lavidaesbellaperfume.jpg" alt="foto">
-            <p> La vie est belle Lancome <br><strong>$14.900</strong> <del>$16.500</del> <br><strong>3</strong> cuotas sin interés de <strong>$4.966,67 </strong>  <br> <a href="index26.html"><button> Ver producto</button></a> <button>Comprar</button>   </p>
-        </div>
-      
-        <br>
-        <div id="producto03">
-            <figure>
-                <img src="./assets/imagenes/vsperfumemonparis.jpg" alt="foto">
-                <p>Mon Paris Yves Saint Laurent  <br><strong>$14.900</strong> <del>$16.500</del> <br><strong>3</strong> cuotas sin interés de <strong>$4.966,67 </strong>  <br> <a href="index27.html"><button> Ver producto</button></a> <button>Comprar</button>  </p>
-            </figure>
-        </div>
-        <p></p>
-        
-       
-         </div>
-
-<br><br><br><br><br><br>
-<div class="imagenesProducto1">
-<div id="producto01">
- <figure>
-    <img src="./assets/imagenes/goodgirl.jpg" alt="foto">
-    <p>Good Girl Blush <br> <strong>$15.000</strong> <del>$17.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$5.166,67 </strong>  <br> <a href="index25.html"><button> Ver producto</button></a> <button>Comprar</button> </p>
- </figure>
- </div>
-<p></p>
- <br>
-<div id="producto02">
-<figure>
-    <img src="./assets/imagenes/victoriassecretperfume.jpg" alt="foto">
-    <p>Bombshell Victorias Secret <br> <strong>$15.000</strong> <del>$17.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$5.166,67</strong>   <br> <a href="index24.html"><button> Ver producto</button></a> <button>Comprar</button>   </p>
-</figure>
- </div>
-<br>
-<p></p>
- <div id="producto03">
-<figure>
-    <img src="./assets/imagenes/marcjacobsperfume.jpg" alt="foto">
-    <p>Perfect Marc Jacobs <br> <strong>$15.000</strong> <del>$17.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$5.166,67></strong>   <br> <a href="index28.html"><button> Ver producto</button></a> <button>Comprar</button>  </p>
-</figure>
-</div>
-<p></p>
-
-
- </div>
-    
-<br><br><br><br><br><br>
-
- <div class="imagenesProducto1">
- <div id="producto01">
-   <figure>
-    <img src="./assets/imagenes/carterablanca.jpg" alt="foto">
-    <p>Cartera White <br> <strong>$13.900</strong> <del>$16.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$4.633,33</strong>   <br> <a href="index22.html"><button> Ver producto</button></a> <button>Comprar</button>  </p>
-   </figure>
-</div>
-<p></p>
- <br>
-<div id="producto02">
-  <figure>
-    <img src="./assets/imagenes/lv.jpg" alt="foto">
-    <p>Mochila LV <br> <strong>$15.000</strong> <del>$17.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$5.166,67></strong>   <br> <a href="index20.html"><button> Ver producto</button></a> <button>Comprar</button>  </p>
-</figure>
-
   
-</div>
-<p></p>
-<br>
-<div id="producto03">
-<figure>
-    <img src="./assets/imagenes/carterarosa1.webp"alt="foto">
-    <p> Cartera Coral <br><strong>$14.900</strong> <del>$16.500</del> <br><strong>3</strong> cuotas sin interés de <strong>$4.966,67</strong>    <br> <a href="index12.html"><button> Ver producto</button></a> <button>Comprar</button> </p>
-</figure>
 
 
-</div>
-<p></p>
 
 
+<!--shop content-->
+ <div id="shopContent">
+    
 </div>
 
-                 <br><br><br><br><br><br>
- <div class="imagenesProducto1">
- <div id="producto01">
-    <figure>
-        
-        <img src="assets/imagenes/bandoleramarron1.jpg" alt="foto">
-        <p>Bandolera Brown <br> <strong>$11.900</strong> <del>$13.900</del> <br><strong>3</strong> cuotas sin interés de <strong>$3.966,67</strong> <br> <a href="index13.html"><button> Ver producto</button></a> <button>Comprar</button></p>
-        
-    </figure>
-  
- </div>
- 
- <br>
- <div id="producto02">
- <figure>
-    <img src="./assets/imagenes/mochilarosa.jpg" alt="foto">
-    <p>Mochila Pink <br> <strong>$13.900</strong> <del>$16.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$4.633,33 </strong>    <br> <a href="index21.html"><button> Ver producto</button></a> <button>Comprar</button> </p>
- </figure>
- <p></p>
- </div>
-
-<br>
-<div id="producto03">
- <figure>
-    <img src="./assets/imagenes/mochilanegra1.jpg" alt="foto">
-    <p>Mochila Black & white<br> <strong>$15.000</strong> <del>$17.600</del> <br> <strong>3</strong> cuotas sin interés de <strong>$5.166,67 </strong>  <br> <a href="index14.html"><button> Ver producto</button></a> <button>Comprar</button> </p>
-</figure>
-
-</div>
-<p></p>
+    
 
 
-</div>
 
 
 
@@ -345,7 +159,7 @@
 
     <footer>
         <div>
-            <h3 >NAVEGACIÓN</h3>
+            <h2 >NAVEGACIÓN</h2>
             <br>
             <ul>
              <li><a href="index.html">Inicio</a></li>
@@ -358,7 +172,7 @@
 
      <br>
         <div >
-            <h3 >CONTACTANOS</h3>
+            <h2 >CONTACTANOS</h2>
             <br>
             <div class="llamada">
                 <img src="./assets/imagenes/llamada-telefonica.png" alt="tel">
@@ -377,7 +191,7 @@
         <div class="valmour">
             <div class="heartValmour">
                 <img src="./assets/imagenes/corazon.png" alt="corazon">
-                <h3>VALMOUR</h3>
+                <h2>VALMOUR</h2>
             </div>
             <br>
             
@@ -394,7 +208,7 @@
     
     </div>
     <div>
-    <h3>TIENDA ONLINE</h3>
+    <h2>TIENDA ONLINE</h2>
     <br>
     <ul>
         <li><a href="./index7.html">Politicas de privacidad</a></li>
@@ -417,7 +231,7 @@
     
 
      <div class="pagos">
-        <h3>Medios de pago</h3>
+        <h2>Medios de pago</h2>
         <br>
         <img src="./assets/imagenes/banelco.jpg" alt="banelco">
         <img src="./assets/imagenes/mastercard.jpg" alt="master">
@@ -428,7 +242,7 @@
     </div>
     <br><br>
 
-    <script src="./js/codigo2.js"></script>
+    <script src="./js/codigo2.js "></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 </html>
